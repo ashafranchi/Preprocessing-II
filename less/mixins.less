@@ -1,1 +1,16 @@
 // Mixins in here
+html {
+    .button-style(@button-bg, @acolor) {
+        .btn {
+            width: 84%;
+            text-align: center;
+            background-color: @button-bg;
+            padding: 1.25rem 0;
+            border-radius: 1.4rem,
+
+            a {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
